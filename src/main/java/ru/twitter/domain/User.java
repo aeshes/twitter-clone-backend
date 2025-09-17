@@ -2,7 +2,7 @@ package ru.twitter.domain;
 
 import lombok.Data;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @Data
 public class User {
@@ -15,7 +15,7 @@ public class User {
 
     private String website;
 
-    private LocalDateTime birthDate;
+    private LocalDate birthDate;
 
     private String email;
 
