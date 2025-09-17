@@ -17,7 +17,9 @@
             <column name="location" type="varchar(255)"/>
             <column name="website" type="varchar(255)"/>
             <column name="birth_date" type="date"/>
-            <column name="email" type="varchar(255)"/>
+            <column name="email" type="varchar(255)">
+                <constraints nullable="false" unique="true"/>
+            </column>
             <column name="password" type="varchar(255)"/>
             <column name="mobile" type="varchar(255)"/>
             <column name="image" type="varchar(255)"/>
