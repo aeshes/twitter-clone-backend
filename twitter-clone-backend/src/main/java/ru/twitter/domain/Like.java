@@ -1,4 +1,4 @@
-package ru.twitter.model;
+package ru.twitter.domain;
 
 import lombok.Data;
 
